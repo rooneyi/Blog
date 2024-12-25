@@ -1,11 +1,11 @@
 <?php require "portions/head.php"?>
-<?php require "portions/nav.php"?>
-<?php require "portions/header.php"?>
-
-<main>
-    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-    <h1>404 Page Not Found</h1>
-    <a href="../">Retour vers la page index</a>
+<main class="bg-gray-100 text-gray-900 flex items-center justify-center min-h-screen">
+    <div class="text-center">
+        <h1 class="text-9xl font-extrabold">Oops!</h1>
+        <p class="text-2xl font-bold mt-4">404 - PAGE NOT FOUND</p>
+        <p class="text-lg mt-2">La page que vous cherchez n'existe pas.</p>
+        <a href="../" class="mt-8 inline-block px-8 py-4 bg-blue-900 text-white font-semibold rounded-full hover:bg-blue-600">Go to Homepage</a>
     </div>
-  </main>
+</main>
   <?php require "portions/footer.php"?>
+
